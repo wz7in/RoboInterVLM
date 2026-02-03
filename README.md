@@ -6,7 +6,7 @@
 
 ## Overview
 
-RoboInterVLM is a vision-language-action (VLM) model framework for robotic manipulation tasks, built on the Qwen2.5-VL foundation model with Mixture-of-Experts (MoE) architecture. This repository provides complete training and evaluation pipelines for fine-tuning vision-language models on robotic manipulation datasets.
+RoboInterVLM is a vision-language-model (VLM) model framework for robotic manipulation tasks, built on the Qwen2.5-VL foundation model with Mixture-of-Experts (MoE) architecture. This repository provides complete training and evaluation pipelines for fine-tuning vision-language models on robotic manipulation datasets.
 
 ## Key Features
 
@@ -23,7 +23,7 @@ RoboInterVLM is a vision-language-action (VLM) model framework for robotic manip
 ## Repository Structure
 
 ```
-System2VLA_Release/
+RoboInterVLM/
 ├── qwen-vl-finetune/          # Training code
 │   ├── scripts/               # Training scripts
 │   │   ├── sft.sh            # Main training script
@@ -330,10 +330,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @article{system2vla2024,
-    title={System2VLA: Vision-Language-Action Model for Robotic Manipulation},
-    author={Your Name},
-    journal={arXiv preprint},
-    year={2024}
+    title={RoboInterVLM},
 }
 ```
 
@@ -348,7 +345,5 @@ This project is licensed under the Apache 2.0 License - see the LICENSE file for
 ## Acknowledgments
 
 - Built on [Qwen-VL](https://github.com/QwenLM/Qwen-VL) by Alibaba Cloud
-- Training framework adapted from [FastChat](https://github.com/lm-sys/FastChat)
-- Evaluation utilities inspired by [LLaVA](https://github.com/haotian-liu/LLaVA)
 
 ---

@@ -6,7 +6,7 @@
 
 ## 项目概述
 
-RoboInterVLM 是一个面向机器人操作任务的视觉-语言-动作（VLM）模型框架，基于 Qwen2.5-VL 基础模型，采用混合专家（MoE）架构。本仓库提供了完整的训练和评测流程，用于在机器人操作数据集上微调视觉语言模型。
+RoboInterVLM 是一个面向机器人操作任务的视觉-语言（VLM）模型框架，基于 Qwen2.5-VL 基础模型，采用混合专家（MoE）架构。本仓库提供了完整的训练和评测流程，用于在机器人操作数据集上微调视觉语言模型。
 
 ## 核心特性
 
@@ -23,7 +23,7 @@ RoboInterVLM 是一个面向机器人操作任务的视觉-语言-动作（VLM�
 ## 目录结构
 
 ```
-System2VLA_Release/
+RoboInterVLM/
 ├── qwen-vl-finetune/          # 训练代码
 │   ├── scripts/               # 训练脚本
 │   │   ├── sft.sh            # 主训练脚本
@@ -330,10 +330,7 @@ python evaluation_intermediate_lang.py \
 
 ```bibtex
 @article{system2vla2024,
-    title={System2VLA: Vision-Language-Action Model for Robotic Manipulation},
-    author={Your Name},
-    journal={arXiv preprint},
-    year={2024}
+    title={RoboInterVLM:},
 }
 ```
 
