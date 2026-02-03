@@ -1,4 +1,4 @@
-# System2VLA
+# RoboInterVLM
 
 **English** | [简体中文](./README_CN.md)
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-System2VLA is a vision-language-action (VLA) model framework for robotic manipulation tasks, built on the Qwen2.5-VL foundation model with Mixture-of-Experts (MoE) architecture. This repository provides complete training and evaluation pipelines for fine-tuning vision-language models on robotic manipulation datasets.
+RoboInterVLM is a vision-language-action (VLM) model framework for robotic manipulation tasks, built on the Qwen2.5-VL foundation model with Mixture-of-Experts (MoE) architecture. This repository provides complete training and evaluation pipelines for fine-tuning vision-language models on robotic manipulation datasets.
 
 ## Key Features
 
