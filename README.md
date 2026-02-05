@@ -61,11 +61,12 @@ pip install qwen-vl-utils
 ```
 
 2. **Data Preparation**
+   - Refer [here](./data_process/README_DATA.md) to prepare dataset
    - Prepare your datasets in the required format
    - Update dataset paths in the training script
 
 3. **Model Preparation**
-   - Download Qwen2.5-VL-3B-Instruct pretrained model
+   - Download [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) pretrained model
    - Update model path in the training script
 
 ### Configuration

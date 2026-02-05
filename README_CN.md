@@ -61,11 +61,12 @@ pip install qwen-vl-utils
 ```
 
 2. **数据准备**
+   - 参考[here](./data_process/README_DATA_zh.md)准备数据集
    - 按照要求的格式准备数据集
    - 在训练脚本中更新数据集路径
 
 3. **模型准备**
-   - 下载 Qwen2.5-VL-3B-Instruct 预训练模型
+   - 下载 [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) 预训练模型
    - 在训练脚本中更新模型路径
 
 ### 配置说明

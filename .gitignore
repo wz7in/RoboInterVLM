@@ -14,7 +14,6 @@ qwen-vl-finetune/demo/videos/v_TpB_zMG3XBA.mp4
 qwen-vl-finetune/demo/images/COCO_train2014_000000580957.jpg
 qwen-vl-finetune/demo/images/10149.png
 qwen-vl-finetune/demo/*
-qwen-vl-finetune/qwenvl/data/__init__.py
 qwen-vl-finetune/wandb/*
 qwen-vl-finetune/wandb/debug.log
 qwen-vl-finetune/wandb/debug-internal.log
